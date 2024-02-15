@@ -1,0 +1,20 @@
+
+<div class="container mt-4">
+    <div class="row">
+      <div class="col-6 offset-3">
+        <div class="form-group">
+          <input type="text" class="form-control" #username>
+        </div>
+        <div class="mb-4">
+          <button class="btn btn-primary" (click)="onAddUser(username.value)">
+            Add Username
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><app-one></app-one></div>
+      <div class="col-md-4"><app-two></app-two></div>
+      <div class="col-md-4"><app-three></app-three></div>
+    </div>
+  </div>

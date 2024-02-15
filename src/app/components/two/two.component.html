@@ -1,0 +1,9 @@
+<h3>two</h3>
+<p *ngIf="username; else noUsername">
+    The username is {{username}}
+</p>
+<ng-template #noUsername>
+    <p>
+        No Username added yet
+    </p>
+</ng-template>
